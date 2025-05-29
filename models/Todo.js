@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const todoSchema = new mongoose.Schema({
-    todoId:{
-        type:Number,
-        unique:[true, "Todo ID can't be the same"]
-    },
+    // todoId:{
+    //     type:Number,
+    //     unique:[true, "Todo ID can't be the same"]
+    // },
     todoName:{
         type:String,
         required:[true, "Todo Name Is Required"]
